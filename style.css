@@ -1,0 +1,300 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.image {
+    max-width: 700px;
+    border-radius: 2rem;
+
+}
+
+.heroSectionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 3rem;
+    padding-inline: 5rem;
+    gap: 2rem;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #304e62 0%, #474b8e 100%);
+   
+}
+
+.description {
+    font-size: large;
+    padding-block: 1rem;
+}
+
+.contentContainer button {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.benefits {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    background-color: #a7afdf;
+    background-image: linear-gradient(43deg, #a7afdf 0%, #a1709e 46%, #FFCC70 100%);
+    text-align: center;
+}
+
+.heading {
+    font-size: 3rem;
+    padding-block: 2rem;
+}
+
+.benefits .description2 {
+    padding-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.contentContainer2 {
+    display: flex;
+    gap: 18px;
+    padding-inline: 5rem;
+}
+
+.contentContainer2 div {
+    border: 3px solid black;
+    border-radius: 1rem;
+    width: 100%;
+    min-height: 400px;
+    padding-inline: 10px;
+    text-align: center;
+}
+
+.contentContainer2 div span {
+    display: inline-block;
+    font-size: 25px;
+    min-height: 60px;
+    text-align: center;
+    padding-block: 1rem;
+    text-decoration: underline;
+}
+
+.topCountries {
+    min-height: 100vh;
+    text-align: center;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.topCountries .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding-inline: 2rem;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.topCountries .content div {
+    border: 3px solid black;
+    max-width: 300px;
+    min-height: 250px;
+    border-radius: 2rem;
+    
+    background-size: cover;
+}
+
+.topCountries .content div span {
+    display: inline-block;
+    font-size: 25px;
+    min-height: 60px;
+    text-align: center;
+    padding-block: 1rem;
+    text-decoration: underline;
+}
+
+.process {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a7afdf;
+    background-image: linear-gradient(43deg, #a7afdf 0%, #a1709e 46%, #FFCC70 100%);
+    font-size: larger;
+    padding-inline: 6rem;
+}
+
+.process .content .empty {
+    height: 10px;
+    background-color: bisque;
+    border-radius: 2rem;
+}
+
+.process .content {
+    display: flex;
+    gap: 2rem;
+}
+
+.process .content span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.process .first {
+    padding-top: 160px;
+}
+
+.process .second {
+    padding-top: 100px;
+}
+
+.process .third {
+    padding-top: 40px;
+}
+
+footer {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+form {
+    border-radius: 1rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+form div {
+    width: 80%;
+    padding-inline: 2rem;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+form div input {
+    width: 90%;
+    height: 90%;
+    outline: none;
+    border: none;
+}
+
+form div select {
+    height: 30px;
+    margin-left: 80%;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 1rem;
+    align-self: start;
+    padding: 1rem;
+    margin: 1rem 6rem;
+    border-radius: 5px;
+}
+
+form .description {
+    padding-bottom: 1rem;
+}
+
+.topCountries  .content .russia{
+    background-image: url(russia.png);
+}
+.topCountries  .content .Egypt{
+    background-image: url(egypt.png);
+}
+.topCountries  .content .Uzbekistan{
+    background-image: url(Uzbekistan.png);
+}
+.topCountries  .content .Georgia{
+    background-image: url(georgia.png);
+}
+.topCountries  .content .Kyrgyzstan{
+    background-image: url(kyrgyzstan.png);
+}
+.topCountries  .content .Philippines{
+    background-image: url(philippines.png);
+}
+.topCountries  .content .Kazakhastan{
+    background-image: url(kazakhastan.png);
+}
+
+@media(max-width: 1265px){
+    .heroSectionContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .heroSectionContainer .contentContainer{
+        text-align: center;
+    }
+    .heroSectionContainer .image{
+        width: 400px;
+    }
+    .heroSectionContainer .applyNow{
+        font-size: 2rem;
+    }
+
+    .benefits .contentContainer2{
+        flex-direction: column;
+       
+    }
+    .contentContainer2 div{
+       min-height:min-content ;
+    }
+    .benefits .heading{
+        font-size: 2rem;
+       
+    }
+    .benefits .description2{
+        font-size: 1rem;
+    }
+    .topCountries .heading{
+        font-size: 2rem;
+    }
+    .process .content{
+        flex-direction: column;
+      
+    }
+    .process .first {
+        padding-top: 30px;
+    }
+    
+    .process .second {
+        padding-top: 30px;
+    }
+    .process .third {
+        padding-top: 30px;
+    }
+    form{
+        text-align: center;
+    }
+    form .heading{
+        font-size: 1rem;
+    }
+    form .description{
+        font-size: 1rem;
+    }
+    form div select{
+        margin-left: 10%;
+    }
+    form button{
+        margin-inline: 8rem;
+    }
+}
